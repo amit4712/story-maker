@@ -1,0 +1,80 @@
+ <style>
+        
+        
+        header { 
+            text-align: center; 
+            color: black;
+            background-color: brown;
+            
+        }   
+        
+        footer {
+             text-align: center; 
+            color: black;
+            background-color: grey;
+            }
+        
+        fieldset {
+            width: 50%;
+            height: 58%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: coral;
+            
+        }
+        
+        label {
+            margin-left: auto;
+            margin-right: auto;
+            float: left;
+            clear: left;
+            text-align: right;
+         /*   padding-right: 2.2em; */
+            
+        }
+        
+        input {
+            float: left;
+            margin-left: 20%;
+            margin-right: 2%;
+            text-align: center;
+            padding: auto;
+        }
+        
+        button {
+            float: left;
+            clear: both;
+           
+            margin-left: 35%;
+            margin-right: 40%;
+        }
+        #final {
+            font-size: 150%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:burlywood;
+        }
+    
+ body {
+            width: 100%;
+            height: 100%;
+            background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+            margin:auto;
+        border: solid black 1%;
+            padding:active;
+        text-align:center;
+       display:block;
+        
+        
+        animation:spin 18s linear alternate infinite;
+}
+
+        @keyframes spin{
+            100%{background-position:150%;}
+        }
+        }
+        }
+    
+    
+    </style>
